@@ -1,0 +1,83 @@
+@import url(/css/variables.css);
+@import url(/fonts);
+.header .main__menu .navbar {
+    padding: 0 2rem 0 5rem;
+}
+
+.logo__img {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.header .main__menu .navbar {
+    padding: 1rem 5rem;
+    box-shadow: none;
+}
+
+.header .main__menu .nav-item .nav-link {
+    font: normal 500 15px/2px var(--roboto);
+    font-family: var(--roboto);
+    font-weight: 500;
+    padding: 1.7rem;
+    color: azure;
+}
+
+.header .main__menu .navbar-nav .active a {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header .main__menu .navbar-nav a:hover {
+    background: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #854fee;
+    background-clip: text;
+}
+
+.banner .main {
+    background: url('https://raw.githubusercontent.com/akashyap2013/PortFolio_Website/master/img/banner/home-banner.png');
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+}
+
+.main .banner .site__title h3 {
+    padding-top: 35%;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.main .banner .site__title h3::after {
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.main .banner .site__title h1 {
+    font-size: 5rem;
+}
+
+.main .banner .site__title h4 {
+    font-size: 3rem;
+}
+
+.main .banner .site__title .banner__image>img {
+    padding: 7rem 0;
+}
+
+img {
+    max-width: 700px;
+    max-height: 700px;
+}
+
+.title__text {
+    font: normal bold 50px/72px var(--roboto);
+}
+
+.btn {
+    padding: .8rem 2.2rem;
+}
